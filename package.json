@@ -11,5 +11,5 @@
         "type": "git",
         "url": "https://github.com/c4software/gitbook-plugin-reveal.git"
     },
-    "license": "Apache 2"
+    "license": "MIT"
 }
