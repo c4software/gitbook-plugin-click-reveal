@@ -1,0 +1,18 @@
+{
+    "name": "gitbook-plugin-reveal",
+    "version": "0.0.1",
+    "description": "This is my first GitBook plugin",
+    "engines": {
+        "gitbook": ">2.x.x"
+    },
+    "keywords": [
+        "gitbook"
+    ],
+    "author": "Valentin Brosseau",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "http://"
+    },
+    "homepage": "http://"
+}
