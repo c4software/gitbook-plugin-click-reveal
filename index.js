@@ -1,7 +1,7 @@
 function wrap (body) {
   return {
       parse: true,
-      body: '<div class="click_reveal">' + body + '</div>'
+      body: '<div class="click_reveal"><span>Cliquer pour voir la réponse</span><div>' + body + '</div></div>'
     };
 }
 
@@ -21,5 +21,7 @@ module.exports = {
                 return this.renderBlock('markdown', block.body).then(renderedBody => wrap(renderedBody));
             }
         }
-    }
+    },
+    hooks: {},
+    filters: {}
 };
