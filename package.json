@@ -1,18 +1,15 @@
 {
     "name": "gitbook-plugin-reveal",
-    "version": "0.0.1",
-    "description": "This is my first GitBook plugin",
+    "description": "A plugin to click to reveal",
+    "main": "index.js",
+    "version": "0.0.2",
     "engines": {
-        "gitbook": ">2.x.x"
+        "gitbook": "*"
     },
-    "keywords": [
-        "gitbook"
-    ],
-    "author": "Valentin Brosseau",
-    "license": "MIT",
+    "homepage": "https://github.com/c4software/gitbook-plugin-reveal",
     "repository": {
         "type": "git",
-        "url": "http://"
+        "url": "https://github.com/c4software/gitbook-plugin-reveal.git"
     },
-    "homepage": "http://"
+    "license": "Apache 2"
 }

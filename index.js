@@ -10,7 +10,6 @@ module.exports = {
     },
     blocks: {
         reveal: {
-            blocks: ["reveal"],
             process: function(blk) {
                 return "<div class='click_reveal'>"+blk.body+"</div>";
             }
