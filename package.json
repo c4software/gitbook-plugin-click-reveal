@@ -2,14 +2,14 @@
     "name": "gitbook-plugin-click-reveal",
     "description": "A plugin to click to reveal",
     "main": "index.js",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "engines": {
         "gitbook": "*"
     },
-    "homepage": "https://github.com/c4software/gitbook-plugin-reveal",
+    "homepage": "https://github.com/c4software/gitbook-plugin-click-reveal",
     "repository": {
         "type": "git",
-        "url": "https://github.com/c4software/gitbook-plugin-reveal.git"
+        "url": "https://github.com/c4software/gitbook-plugin-click-reveal.git"
     },
     "license": "MIT"
 }
