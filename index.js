@@ -1,7 +1,7 @@
-function wrap (body) {
+function wrap (body, text) {
   return {
       parse: true,
-      body: '<div class="click_reveal"><span>Cliquer pour voir la réponse</span><div>' + body + '</div></div>'
+      body: '<div class="click_reveal"><span> ' + text + ' </span><div>' + body + '</div></div>'
     };
 }
 
@@ -18,7 +18,8 @@ module.exports = {
     blocks: {
         reveal: {
             process: function(block) {
-                return this.renderBlock('markdown', block.body).then(renderedBody => wrap(renderedBody));
+                var text = block.kwargs.text || 'Click to show';
+                return this.renderBlock('markdown', block.body).then(renderedBody => wrap(renderedBody, text));
             }
         }
     },
