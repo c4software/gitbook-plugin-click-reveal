@@ -6,8 +6,18 @@ This plugin enable « Click to Reveal » functionnality to your GitBook.
 
 ## Usage
 
+Quick use :
+
 ```
 {% reveal %}
+Your element to **hide**
+{% endreveal %}
+```
+
+With custom text :
+
+```
+{% reveal text="Cliquer pour afficher" %}
 Your element to **hide**
 {% endreveal %}
 ```
