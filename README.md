@@ -2,6 +2,8 @@
 
 This plugin enable « Click to Reveal » functionnality to your GitBook.
 
+![Preview](./preview.gif)
+
 ## Usage
 
 ```
