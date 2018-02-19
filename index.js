@@ -1,3 +1,10 @@
+function wrap (body) {
+  return {
+      parse: true,
+      body: '<div class="click_reveal">' + body + '</div>'
+    };
+}
+
 module.exports = {
     website: {
         assets: "./click_reveal",
@@ -10,8 +17,8 @@ module.exports = {
     },
     blocks: {
         reveal: {
-            process: function(blk) {
-                return "<div class='click_reveal'>"+blk.body+"</div>";
+            process: function(block) {
+                return this.renderBlock('markdown', block.body).then(renderedBody => wrap(renderedBody));
             }
         }
     }
