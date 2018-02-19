@@ -1,10 +1,19 @@
 module.exports = {
-    // Map of hooks
-    hooks: {},
-
-    // Map of new blocks
-    blocks: {},
-
-    // Map of new filters
-    filters: {}
+    website: {
+        assets: "./click_reveal",
+        js: [
+            "click_reveal.js"
+        ],
+        css: [
+            "click_reveal.css"
+        ]
+    },
+    blocks: {
+        reveal: {
+            blocks: ["reveal"],
+            process: function(blk) {
+                return "<div class='click_reveal'>"+blk.body+"</div>";
+            }
+        }
+    }
 };
