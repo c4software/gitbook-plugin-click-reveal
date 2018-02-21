@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-click-reveal",
     "description": "A plugin to click to reveal",
     "main": "index.js",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "engines": {
         "gitbook": "*"
     },
