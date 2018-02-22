@@ -1,6 +1,6 @@
 # Click To Reveal Plugin
 
-[![npm version](https://badge.fury.io/js/gitbook-plugin-click-reveal.svg)](https://badge.fury.io/js/gitbook-plugin-click-reveal)
+[![npm version](https://badge.fury.io/js/gitbook-plugin-click-reveal.svg)](https://www.npmjs.com/package/gitbook-plugin-click-reveal)
 
 Simple plugin to add  « Click to Reveal » functionnality to your GitBook.
 
