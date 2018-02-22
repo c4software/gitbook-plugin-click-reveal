@@ -9,6 +9,7 @@ Simple plugin to add  « Click to Reveal » functionnality to your GitBook.
 ## Installation
 
 In your book.json add the plugin:
+
 ```json
 {
     "plugins": [
